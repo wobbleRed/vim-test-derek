@@ -8,7 +8,6 @@ describe "ExUnit"
     end
 
     after
-      call Teardown()
       cd -
     end
 
@@ -43,7 +42,6 @@ describe "ExUnit"
 
   describe "without mix.exs"
     after
-      call Teardown()
     end
 
     it "runs nearest as file tests"
